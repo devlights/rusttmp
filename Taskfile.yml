@@ -6,6 +6,7 @@ tasks:
   init:
     cmds:
       - cargo init
+      - git restore .gitignore
   run:
     cmds:
       - cargo run
