@@ -1,0 +1,21 @@
+# https://taskfile.dev
+
+version: '3'
+
+tasks:
+  init:
+    cmds:
+      - cargo init
+  run:
+    cmds:
+      - cargo run
+  build:
+    cmds:
+      - cargo build
+  check:
+    cmds:
+      - cargo check
+  clean:
+    cmds:
+      - cargo clean
+      - rm -rf src/ Cargo.*
